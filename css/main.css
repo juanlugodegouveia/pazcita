@@ -1,0 +1,474 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+ body {
+   padding-top: 56px;
+   overflow-x: hidden;
+   /* font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+   font-family: 'Nunito', sans-serif;
+ }
+
+ p {
+   line-height: 1.60;
+ }
+
+ a {
+   color: #6f59d9;
+   font-size: 16px;
+ }
+
+ a:hover {
+   color: #35c500;
+ }
+
+ .text-primary {
+   color: #6f59d9 !important;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   /* font-weight: 700;
+   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+   font-family: 'Nunito', sans-serif;
+ }
+
+ section {
+  padding: 30px;
+}
+
+section h2.section-heading {
+  /* font-size: 42px; */
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.btn-primary {
+  background-color: #6f59d9;
+  border-color: #6f59d9;
+}
+
+#mainNav {
+  background-color: #212529;
+  padding: 0!important;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    background-color: #6f59d9;
+  }
+}
+
+#mainNav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 62.22px;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+@media (min-width: 992px) {
+  #mainNav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 435px;
+    height: 62.22px;
+  }
+}
+
+@media (max-width: 320px) {
+  #mainNav .logo {
+    width: 200px;
+  }
+}
+
+#mainNav .logo img {
+  width: auto;
+  height: 35px;
+}
+
+@media (min-width: 992px) {
+  #mainNav .logo img {
+    width: 170px;
+    height: 38.22px;
+  }
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  margin-right: 25px;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #6f59d9;
+  /* font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+  font-family: 'Nunito', sans-serif;
+}
+
+/* #mainNav .navbar-brand {
+  color: #fff;
+  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Nunito', sans-serif;
+  text-shadow: 0 5px 2px rgba(0, 0, 0, .4);
+} */
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #6f59d9;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #9874af;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .collapse ul li:last-child {
+    padding-right: 135px;
+  }
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  /* font-size: 90%;
+  font-weight: 400; */
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  /* font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+  font-family: 'Nunito', sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #6f59d9;
+}
+
+#mainNav .collapse ul li {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+  }
+
+  /* #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  } */
+
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+  }
+
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
+
+@media (max-width: 992px) {
+  #mainNav.navbar-shrink {
+    background-color: #212529;
+  }
+}
+
+header {
+  padding: 0;
+}
+
+.carousel-item {
+  height: 95vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Services */
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+#servicios ul {
+  display: inline-block;
+}
+
+#servicios ul li {
+  list-style: none;
+}
+
+/* About */
+
+.banner-area {
+  background: linear-gradient(0deg, rgba(128, 80, 250, 0.4), rgba(128, 80, 250, 0.4)), url(../img/santiago.png) no-repeat center;
+  background: -webkit-linear-gradient(0deg, rgba(128, 80, 250, 0.4), rgba(128, 80, 250, 0.4)), url(../img/santiago.png) no-repeat center;
+  background: -moz-linear-gradient(0deg, rgba(128, 80, 250, 0.4), rgba(128, 80, 250, 0.4)), url(../img/santiago.png) no-repeat center;
+  background: -ms-linear-gradient(0deg, rgba(128, 80, 250, 0.4), rgba(128, 80, 250, 0.4)), url(../img/santiago.png) no-repeat center;
+  background: -o-linear-gradient(0deg, rgba(128, 80, 250, 0.4), rgba(128, 80, 250, 0.4)), url(../img/santiago.png) no-repeat center;
+  background-size: cover;
+}
+
+  @media (max-width: 991px) {
+    .banner-area .fullscreen {
+      height: 500px !important;
+    }
+  }
+
+.banner-content h1 {
+  color: #fff;
+  /* font-size: 60px;
+  font-weight: 300; */
+  /* line-height: 72px; */
+}
+
+  /* @media (max-width: 991.98px) {
+    .banner-content h1 br {
+      display: none;
+    }
+  } */
+
+  /* @media (max-width: 991.98px) {
+    .banner-content h1 {
+      font-size: 40px;
+      line-height: 52px;
+    }
+  } */
+
+  /* @media (max-width: 767px) {
+    .banner-content h1 {
+      margin-top: 50px;
+      font-size: 30px;
+      line-height: 42px;
+    }
+  } */
+
+.banner-content p {
+    color: #fff;
+    line-height: 26px;
+  }
+
+.post-slider-area {
+  margin-top: -100px;
+}
+
+@media (max-width: 544px) {
+  .post-slider-area {
+    display: none;
+  }
+}
+
+  /* @media (max-width: 991px) {
+    .post-slider-area {
+      margin-top: 0;
+      padding-top: 60px;
+      margin-top: -100px;
+    }
+  } */
+
+.post-box {
+  /* padding: 60px 60px 120px 60px; */
+  padding: 60px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+  position: relative;
+  background: #fff;
+  border-radius: 5px;
+  width: auto;
+  height: 200px;
+  display: flex!important;
+  align-items: center;
+}
+
+  @media (max-width: 420px) {
+    .post-box {
+      padding: 40px 10px;
+    }
+  }
+
+  .post-box p {
+    /* padding-top: 60px; */
+    margin: 0 auto;
+  }
+
+/** Portafolio **/
+
+#gallery {
+  padding-bottom: 0!important;
+}
+
+ul.lista-portafolio  {
+  padding: 0!important;
+}
+
+ul.lista-portafolio li {
+  padding: 10px;
+  float: left; /* Hacemos que salgan dos imagenes en la misma linea, dependera del tamaño que tengamos definido */
+  list-style: none;
+}
+
+@media only screen and (min-width:480px) { /*Para dispositivos moviles */
+  ul.lista-portafolio li {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width:768px) { /* Para que se vean tres imagenes en fila */
+  ul.lista-portafolio li {
+    width: 33.3%;
+  }
+}
+
+div.portafolio {
+  position: relative;
+  overflow: hidden; /* En caso de que algo se salga no se muestre, se queda enmarcado en nuestro contenedor */
+}
+
+div.portafolio img { /*Para que las imagenes se vean al 100% ya que al utilizar el "hidden" las imagenes se cortaron*/
+  max-width: 100%;
+  /* filter: gray; /* Filtro de escala de grisis para verisones como IE */
+  /* -webkit-filter: grayscale(1); /* Filtro gris para chrome */
+  -webkit-transition: all .5s ease-in-out; /*Efecto visual*/
+}
+
+div.portafolio:hover img {
+  -webkit-filter: grayscale(0); /*Para devolverle el color a la imagen */
+  -webkit-transform: scale(1.1); /*Efecto de zoom*/
+}
+
+div.portafolio p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px 10px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.55);
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all .5s ease-in-out; /*Efecto visual*/
+}
+
+div.portafolio:hover p {
+  bottom: -80px; /*Para esconder el texto al interactuar*/
+  opacity: 0;
+}
+
+/* client */
+
+#client {
+  padding-top: 0!important;
+}
+
+#client .logos img {
+  padding-bottom: 10px;
+}
+
+
+@media (max-width: 420px) {
+  #client .logos img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 320px) {
+  #client .logos img {
+    width: 110px;
+  }
+}
+
+
+/* Contact */
+
+section#contact {
+  background-color: #212529;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section#contact a {
+  color: #fff!important;
+  text-decoration: none;
+}
+
+section#contact .section-heading {
+  color: #fff;
+}
+
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+  height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+  height: 248px;
+}
+
+section#contact .form-control:focus {
+  border-color: #50e519;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+section#contact ::-webkit-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Nunito', sans-serif;
+}
+
+section#contact :-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Nunito', sans-serif;
+}
+
+section#contact ::-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Nunito', sans-serif;
+}
+
+section#contact :-ms-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Nunito', sans-serif;
+}
